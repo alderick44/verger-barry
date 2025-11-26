@@ -1,0 +1,11 @@
+:root{
+    /*Couleurs principales*/
+    --couleur-brun: #B39982;
+    --couleur-brun-fonce: #221B14;
+    --couleur-vert: #76A883;
+    /*Couleurs secondaires*/
+    --couleur-rouge: #FF2C2C;
+    --couleur-bleu: #003C68;
+    /*Couleurs d'accents*/
+    --couleur-vert: #25C54A;
+}
