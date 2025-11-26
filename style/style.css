@@ -1,11 +1,60 @@
 :root{
-    /*Couleurs principales*/
+    /* Couleurs principales */
     --couleur-brun: #B39982;
+    --couleur-brun-rgb: 179, 153, 130;
     --couleur-brun-fonce: #221B14;
+    --couleur-brun-fonce-rgb: 34, 27, 20;
     --couleur-vert: #76A883;
-    /*Couleurs secondaires*/
+    --couleur-vert-rgb: 118, 168, 131;
+    /* Couleurs secondaires */
     --couleur-rouge: #FF2C2C;
+    --couleur-rouge-rgb: 255, 44, 44;
     --couleur-bleu: #003C68;
-    /*Couleurs d'accents*/
-    --couleur-vert: #25C54A;
+    --couleur-bleu-rgb: 0, 60, 104;
+    /* Couleurs d'accents */
+    --couleur-vert-accent: #25C54A;
+    --couleur-vert-accent-rgb: 37, 197, 74;
+    /*BS*/
+    --bs-body-font-family : "Alegreya Sans", sans-serif;
+    --bs-primary: var(--couleur-brun-fonce);
+    --bs-primary-rgb: var(--couleur-brun-fonce-rgb);
+    --bs-body-color: white;
+    --bs-body-color-rgb: 255, 255, 255;
+    
+}
+/*Titres*/
+h1{
+    font-family: "Zen Antique Soft", serif;
+    font-size: 48px;
+}
+h2{
+    font-family: "Zen Antique Soft", serif;
+    font-size: 32px;
+}
+h3{
+    font-family: "Zen Antique Soft", serif;
+    font-size: 26px;
+}
+.titre-decoratif{
+    font-family: "Parisienne";
+    font-size: 48px;
+}
+p{
+    font-size: 20px;
+}
+.btn-primary{
+    --bs-btn-bg : var(--couleur-vert);
+    --bs-btn-border-color: var(--bs-body-color);
+    --bs-btn-hover-bg: var(--couleur-bleu);
+    --bs-btn-hover-border-color: var(--bs-body-color);
+    --bs-btn-active-bg : var(--couleur-vert);
+    --bs-btn-active-border-color: var(--bs-body-color);
+}
+.btn-secondary{
+    --bs-btn-bg : var(--couleur-bleu);
+    --bs-btn-border-color: var(--bs-body-color);
+    --bs-btn-hover-bg: var(--couleur-vert);
+    --bs-btn-hover-border-color: var(--bs-body-color);
+    --bs-btn-active-bg : var(--couleur-bleu);
+    --bs-btn-active-border-color: var(--bs-body-color);
 }
