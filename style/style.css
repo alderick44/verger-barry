@@ -18,9 +18,14 @@
     --bs-body-font-family : "Alegreya Sans", sans-serif;
     --bs-primary: var(--couleur-brun-fonce);
     --bs-primary-rgb: var(--couleur-brun-fonce-rgb);
+    --bs-primary-bg-subtle: var(--couleur-brun);
+    --bs-primary-bg-subtle-rgb: var(--couleur-brun-rgb);
+    --bs-secondary: var(--couleur-vert);
+    --bs-secondary-rgb: var(--couleur-vert-rgb);
     --bs-body-color: white;
     --bs-body-color-rgb: 255, 255, 255;
-    
+    --bs-info: var(--couleur-vert-accent);
+    --bs-info-rgb: var(--couleur-vert-accent-rgb);
 }
 /*Titres*/
 h1{
