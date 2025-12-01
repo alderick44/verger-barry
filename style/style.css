@@ -63,3 +63,9 @@ p{
     --bs-btn-active-bg : var(--couleur-bleu);
     --bs-btn-active-border-color: var(--bs-body-color);
 }
+.header__logo{
+    transition: transform 0.3s;
+    &:hover{
+    transform: scale(1.05);
+    }
+}
