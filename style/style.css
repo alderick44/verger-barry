@@ -69,6 +69,14 @@ p{
     transform: scale(1.05);
     }
 }
+footer{
+    background-image: url("../media-files/banner-footer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer__icon-socials{
+    height: 5vh;
+}
 .header__nav-title{
 }
 @media (max-width: 1200px) {
