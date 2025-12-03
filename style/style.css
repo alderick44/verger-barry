@@ -26,6 +26,7 @@
     --bs-body-color-rgb: 255, 255, 255;
     --bs-info: var(--couleur-vert-accent);
     --bs-info-rgb: var(--couleur-vert-accent-rgb);
+    --bs-border-color: var(--couleur-brun);
 }
 /*Titres*/
 h1{
@@ -63,6 +64,7 @@ p{
     --bs-btn-active-bg : var(--couleur-bleu);
     --bs-btn-active-border-color: var(--bs-body-color);
 }
+/*---------------------------------------------------------------------------------------*/
 .header__logo{
     transition: transform 0.3s;
     &:hover{
@@ -75,10 +77,14 @@ footer{
     background-size: cover;
 }
 .footer__icon-socials{
-    height: 5vh;
+    height: 3vh;
 }
 .header__nav-title{
 }
+.border-shadow{
+    box-shadow: 0px 30px 55px var(--couleur-rouge);
+}
+/*---------------------------------------------------------------------------------------*/
 @media (max-width: 1200px) {
     .header__nav-title{
         font-size: 1rem !important;
