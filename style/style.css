@@ -44,6 +44,7 @@ h3{
 .titre-decoratif{
     font-family: "Parisienne";
     font-size: 48px;
+    text-shadow: 0px 0px 5px black, 0px 0px 10px black, 0px 0px 20px black;
 }
 p{
     font-size: 20px;
@@ -83,6 +84,12 @@ footer{
 }
 .border-shadow{
     box-shadow: 0px 30px 55px var(--couleur-rouge);
+}
+.banner-nos-produits{
+    background-image: url(../media-files/nos-produits/banner-produits.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
 }
 /*---------------------------------------------------------------------------------------*/
 @media (max-width: 1200px) {
