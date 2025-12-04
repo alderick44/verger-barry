@@ -40,6 +40,7 @@ h2{
 h3{
     font-family: "Zen Antique Soft", serif;
     font-size: 26px;
+    color: var(--couleur-vert);
 }
 .titre-decoratif{
     font-family: "Parisienne";
@@ -64,6 +65,9 @@ p{
     --bs-btn-hover-border-color: var(--bs-body-color);
     --bs-btn-active-bg : var(--couleur-bleu);
     --bs-btn-active-border-color: var(--bs-body-color);
+}
+.card{
+    --bs-card-bg: var(--couleur-brun-fonce);
 }
 /*---------------------------------------------------------------------------------------*/
 .header__logo{
