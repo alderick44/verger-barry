@@ -50,6 +50,9 @@ h3{
 p{
     font-size: 20px;
 }
+.p-accent{
+    color: var(--couleur-vert-accent);
+}
 .btn-primary{
     --bs-btn-bg : var(--couleur-vert);
     --bs-btn-border-color: var(--bs-body-color);
