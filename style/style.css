@@ -103,6 +103,7 @@ footer{
     background-repeat: no-repeat;
     background-size: contain;
     height: 45vh;
+    width: 100%
 }
 /*---------------------------------------------------------------------------------------*/
 @media (max-width: 1200px) {
