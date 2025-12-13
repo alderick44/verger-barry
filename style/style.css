@@ -43,6 +43,9 @@
         transform: scale(2.5);
     }
 }
+.display-6{
+    font-family: "Alegreya", serif;
+}
 /*Titres*/
 h1{
     font-family: "Zen Antique Soft", serif;
@@ -121,6 +124,13 @@ footer{
 }
 .banner-produits-section{
     background-image: url(../media-files/nos-produits/banner-produits-section.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vh;
+    width: 100%
+}
+.banner-produits-section--accueil{
+    background-image: url(../media-files/nos-produits/banner-produits.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 45vh;
