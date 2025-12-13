@@ -28,6 +28,21 @@
     --bs-info-rgb: var(--couleur-vert-accent-rgb);
     --bs-border-color: var(--couleur-brun);
 }
+/*BS*/
+.carousel-control-next-icon {
+    background-image: url(../media-files/icones/icon-arrow-right-full.png);
+    transition: 0.2s;
+    &:hover{
+        transform: scale(2.5);
+    }
+}
+.carousel-control-prev-icon {
+    background-image: url(../media-files/icones/icon-arrow-left-full.png);
+    transition: 0.2s;
+    &:hover{
+        transform: scale(2.5);
+    }
+}
 /*Titres*/
 h1{
     font-family: "Zen Antique Soft", serif;
@@ -86,6 +101,11 @@ footer{
 }
 .footer__icon-socials{
     height: 3vh;
+}
+.accueil__image-carrousel{
+    height: 80vh;
+    object-fit: cover;
+    
 }
 .header__nav-title{
 }
