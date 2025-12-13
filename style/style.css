@@ -112,6 +112,7 @@ footer{
 .border-shadow{
     box-shadow: 0px 30px 55px var(--couleur-rouge);
 }
+/*Background images sections*/
 .banner-nos-produits{
     background-image: url(../media-files/nos-produits/banner-produits.png);
     background-repeat: no-repeat;
@@ -121,7 +122,7 @@ footer{
 .banner-produits-section{
     background-image: url(../media-files/nos-produits/banner-produits-section.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     height: 45vh;
     width: 100%
 }
@@ -130,6 +131,13 @@ footer{
     background-repeat: no-repeat;
     background-size: cover;
     height: 80vh;
+}
+.banner-oasis{
+    background-image: url(../media-files/accueil/banner-oasis.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vh;
+    width: 100%
 }
 /*---------------------------------------------------------------------------------------*/
 @media (max-width: 1200px) {
