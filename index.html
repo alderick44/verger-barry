@@ -66,10 +66,40 @@
             </div>
         </header>
         <main class="bg-primary pb-5">
+            <div id="modaleAnnonces" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modaleAnnoncesLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content bg-primary">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modaleAnnoncesLabel">Annonces & Nouveautés</h5>
+                            <button type="button" class="close btn btn-secondary ms-3 px-2 py-0" data-bs-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Pommes actuellement disponibles à l'autocueillette :<br>
+                            <span class="p-accent">Revenez à la mi-août</span> pour récolter la McIntosh, Lobo, Spartan et la Cortland.
+                            <p>L'inventaire de notre boutique bat son plein avec une grande diversité de produits locaux :<br> 
+                            - Légumes frais et fines herbes<br>
+                            - Cidres et spiritueux ainsi que tous nous classiques issus de nos récoltes.
+                            <br><br>
+                            Le Bistro Maraîcher <span class="p-accent">L'Hirondelle</span> vous concocte une carte unique avec les fraicheurs locales;
+                            Les fins de semaine et jours fériés de 9h à 18h.
+                            <br><br>
+                            Notre petite fermette compte maintenant plusieurs <span class="p-accent">nouveaux animaux</span> rescapés qui n'attendent que vos caresses.
+                            <br><br>
+                            On vous attend chaleureusement pour la plus belle saison de l'année!​​​ </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <section>
                 <div id="carrouselAccueil" class="carousel slide">
                     <div class="carousel-inner">
-                        <div class="d-flex position-absolute top-0 w-100 justify-content-center z-1"><h1 class="bg-primary bg-opacity-50 rounded mt-0 p-5">Bienvenue au Verger Barry!</h1>
+                        <div class="d-flex position-absolute top-0 w-100 justify-content-center z-1 carrousel__titre-annonce">
+                            <h1 type="button" data-bs-toggle="modal" data-bs-target="#modaleAnnonces" class="bg-primary bg-opacity-50 rounded mt-0 p-5">Annonces et nouveautés</h1>
                         </div>
                         <div class="carousel-item active">
                             <img src="media-files/autocueillette/banner-autocueillette.png" class="d-block w-100 accueil__image-carrousel" alt="...">
@@ -125,7 +155,7 @@
                             <li>Accordez du temps précieux à vos enfants dans notre <span class="p-accent">terrain de jeux.</span></li>
                             <li>Imprégnez-vous davantage de la beauté environnante lors d'une <span class="p-accent">visite guidée</span> captivante</li>
                             <li>Renforcez votree connexion à la nature en participant à des <span class="p-accent">activités de groupe.</span></li>
-                        </ul>
+                        </ul>22222
                         <div class="text-center">
                             <button class="btn btn-primary p-big">Planifier votre visite</button>
                         </div>
