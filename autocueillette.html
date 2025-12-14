@@ -4,21 +4,218 @@
         <meta charset="UTF-8">
         <title>Verger Barry</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-        <link rel="normalize.css">
-        <link rel="style.css">
+        <link rel="stylesheet" href="/style/normalize.css">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Parisienne&family=Zen+Antique+Soft&display=swap" rel="stylesheet">
     </head>
-<body>
-    <header>
-
-    </header>
-    <main>
-        <section>
-
-        </section>
-    </main>
-    <footer>
-
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-</body>
+    <body>
+        <header class="bg-primary-subtle">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3">
+                        <a href="index.html">
+                        <img src="media-files/logo-color.png" alt="logo verger barry" class="w-50 header__logo ps-2 d-none d-md-inline">
+                        <img src="media-files/logo-color.png" alt="logo verger barry" class="w-100 header__logo ps-2 d-md-none">
+                        </a>
+                    </div>
+                    <div class="col-9">
+                        <div class="d-flex justify-content-center align-items-center h-100">
+                            <div class="row w-100 gap-lg-4">
+                                <div class="col-6 col-lg-3 p-0">
+                                    <div class="d-flex justify-content-center">
+                                        <a href="planifier-votre-visite.html" class="text-dark link-underline
+                                        link-underline-opacity-0 fs-5 fw-bold icon-link icon-link-hover header__nav-title">
+                                        Planifier votre visite
+                                        <img src="media-files/icones/icon-fruit-apple-2.png" class="bi" aria-hidden="true">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-lg-2 p-0">
+                                    <div class="d-flex justify-content-center">
+                                        <a href="nos-produits.html" class="text-dark link-underline
+                                        link-underline-opacity-0 fs-5 fw-bold icon-link icon-link-hover header__nav-title">
+                                        Nos produits
+                                        <img src="media-files/icones/icon-fruit-apple.png" class="bi" aria-hidden="true">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-lg-2 p-0">
+                                    <div class="d-flex justify-content-center">
+                                        <a href="index.html" class="text-dark link-underline
+                                        link-underline-opacity-0 fs-5 fw-bold icon-link icon-link-hover header__nav-title">
+                                        À propos
+                                        <img src="media-files/icones/icon-fruit-apple.png" class="bi" aria-hidden="true">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-lg-2 p-0">
+                                    <div class="d-flex justify-content-center">
+                                        <a href="index.html" class="text-dark link-underline
+                                        link-underline-opacity-0 fs-5 fw-bold icon-link icon-link-hover header__nav-title">
+                                        Nous-joindre
+                                        <img src="media-files/icones/icon-fruit-apple.png" class="bi" aria-hidden="true">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="bg-primary pb-5">
+            <section class="banner-autocueillette mb-5">
+                    <div class="d-flex justify-content-center align-items-center flex-column w-100 h-100">
+                        <div class="d-flex flex-column h-100 justify-content-center bg-primary bg-opacity-50 p-4">
+                            <h1 class="text-center">Autocueillette</h1>
+                            <p class="text-center titre-decoratif">De la mi-août à la mi-octobre. </p>
+                        </div>
+                    </div>
+            </section>
+            <section>
+                <div class="container border text-center my-5 py-5">
+                    <div>
+                        <h2 class="text-secondary pb-3">Heures d'ouverture</h2>
+                        <p><span class="p-accent">9h à 18h en saison</span> de cueillette et sur rendez-vous hors saison. La saison débute à la mi-août et se termine environ à la mi-octobre</p>
+                    </div>
+                </div>
+                <div class="container border text-center my-5 py-5">
+                    <div>
+                        <h2 class="text-secondary pb-3">À faire au verger</h2>
+                        <p>Toujours aussi bon depuis des générations</p>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <div class="card border-0 w-25">
+                            <img src="media-files/nos-produits/pommes-et-petits-fruits.png" class="card-img-top">
+                            <div class="card-body">
+                                <h3 class="card-title text-secondary p-5">Fruits du verger</h3>
+                                <p class="card-text">Les fruits du Verger Barry sont cultivés avec soin sur nos terres familiales. Pommes juteuses et petits fruits savoureux vous attendent au kiosque ou en autocueillette pour croquer pleinement dans le terroir péradien.</p>
+                                <div class="d-flex flex-column gap-3 pt-5">
+                                    <button class="btn btn-primary">Voir nos fruits</button>
+                                    <a class="btn btn-secondary" href="autocueillette.html">Autocueillette</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row p-5 justify-content-evenly">
+                        <div class="col-3 m-3">
+                            <div class="card border-0">
+                                <img src="media-files/nos-produits/vinaigres.png" class="card-img-top">
+                                <div class="card-body">
+                                    <h3 class="card-title text-secondary p-5">Activités de groupe</h3>
+                                    <p class="card-text">Nos vinaigres artisanaux sont préparés à partir des pommes du Verger Barry et de fruits récoltés sur place. Vinaigre de cidre nature ou aromatisé, ils apportent une touche acidulée et parfumée à vos salades, marinades et plats du quotidien.</p>
+                                    <div class="d-flex flex-column gap-3 pt-5">
+                                        <button class="btn btn-primary">Réserver</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 m-3">
+                            <div class="card border-0">
+                                <img src="media-files/nos-produits/herbes-et-fleurs.png" class="card-img-top">
+                                <div class="card-body">
+                                    <h3 class="card-title text-secondary p-5">Kiosque</h3>
+                                    <p class="card-text">Élaborés à partir des fruits du verger, nos cidres et autres alcools mettent en valeur les saveurs de Sainte-Anne-de-la-Pérade. Bulles festives, cidres de dégustation ou alcools plus corsés : de quoi accompagner vos apéros, repas et occasions spéciales avec une touche du Verger Barry.</p>
+                                    <div class="d-flex flex-column gap-3 pt-5">
+                                        <button class="btn btn-primary">Voir nos produits</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 m-3">
+                            <div class="card border-0">
+                                <img src="media-files/nos-produits/creme-rytuel.png" class="card-img-top">
+                                <div class="card-body">
+                                    <div class="card-title d-flex flex-column py-5"> 
+                                        <h3 class="text-secondary pb-2">Pique-nique</h3>
+                                    </div>
+                                    <p class="card-text">L’authentique rituel au soin de l’art corporel, inspiré par la nature et le savoir-faire du Verger Barry.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 mt-3">
+                            <div class="card border-0">
+                                <img src="media-files/nos-produits/legumes.png" class="card-img-top">
+                                <div class="card-body">
+                                    <h3 class="card-title text-secondary pb-2">Mini-ferme</h3>
+                                    <p class="card-text">Profitez de rabais exclusifs en Précommande. Obtenez 10$ de légumes par tranche de 100$.
+                                    Les abonnements sont proposés en formule "compte client". <br>Le montant choisi est porté à votre compte et débité lors de vos visites à la ferme. Vous choisissez vos légumes, les quantités et les moments ou vous désirez faire vos emplettes à la ferme.</p>
+                                    <div class="d-flex flex-column gap-3 pt-5">
+                                        <button class="btn btn-primary" href="nos-produits.html">Voir nos animaux</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 mt-3">
+                            <div class="card border-0">
+                                <img src="media-files/nos-produits/pepiniere.png" class="card-img-top">
+                                <div class="card-body">
+                                    <h3 class="card-title text-secondary pb-2">Réserver</h3>
+                                    <p class="card-text">​​La vente de plants aura lieu fin mai lors du premier week-end d'ouverture !
+                                    ​Tous nos plants sont cultivés en Bio, sans pesticides ni intrants chimiques.<br>Plusieurs plants seront en vente libre cette journée et certains sont offerts seulement lors de la précommande. 
+                                    *Le formulaire de précommande est en construction</p>
+                                    <div class="d-flex flex-column gap-3 pt-5">
+                                        <button class="btn btn-primary" href="nos-produits.html">Bientôt disponible!</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="border-3 border-top border-shadow">
+            <div class="container">
+                <div class="d-flex justify-content-center">
+                    <div class="d-flex align-items-center flex-column bg-primary bg-opacity-50 p-4 rounded-4">
+                        <h2>Contactez-nous!</h2>
+                        <p class="mb-0 mt-2">1433, boulevard Lanaudière,</p>
+                        <p class="mb-0">Saint-Anne-de-la-Pérade, Québec</p>
+                        <p>G0X 2J0</p>
+                        <div class="p-3">
+                            <p class="mb-1">info@rytuel.ca</p>
+                            <p>418-906-7796</p>
+                        </div>
+                        <div class="pb-4">
+                            <img src="media-files/icones/icon-instagram-white.png" alt="logo instagram" class="footer__icon-socials me-2">
+                            <img src="media-files/icones/icon-facebook-round-white.png" alt="logo facebook" class="footer__icon-socials ms-2">
+                        </div>
+                        <p>Heures d'ouverture</p>
+                        <p>9h à 18h en saison de cueillette et sur rendez-vous hors saison.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-primary bg-opacity-50">
+                <div class="container">
+                    <div class="d-flex justify-content-center align-items-center w-100 mt-5">
+                        <div class="row gap-lg-5 w-100 justify-content-center p-4">
+                            <div class="col-6 col-lg-3 p-0 text-center">
+                                <a href="index.html" class="link-light link-underline-opacity-25 link-underline-opacity-75-hover link-offset-1-hover link-offset-1 fs-5 text-light">
+                                Planifier votre visite
+                                </a>
+                            </div>
+                            <div class="col-6 col-lg-2 p-0 text-center">
+                                <a href="index.html" class="link-light link-underline-opacity-25 link-underline-opacity-75-hover link-offset-1-hover link-offset-1 fs-5 text-light">
+                                Nos produits
+                                </a>
+                            </div>
+                            <div class="col-6 col-lg-2 p-0 text-center">
+                                <a href="index.html" class="link-light link-underline-opacity-25 link-underline-opacity-75-hover link-offset-1-hover link-offset-1 fs-5 text-light">
+                                À propos
+                                </a>
+                            </div>
+                            <div class="col-6 col-lg-2 p-0 text-center">
+                                <a href="index.html" class="link-light link-underline-opacity-25 link-underline-opacity-75-hover link-offset-1-hover link-offset-1 fs-5 text-light">
+                                Nous-joindre
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    </body>
 </html>

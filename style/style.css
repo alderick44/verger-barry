@@ -126,6 +126,12 @@ footer{
     background-size: cover;
     height: 80vh;
 }
+.banner-autocueillette{
+    background-image: url(../media-files/autocueillette/banner-autocueillette.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
 .banner-produits-section{
     background-image: url(../media-files/nos-produits/banner-produits-section.png);
     background-repeat: no-repeat;
