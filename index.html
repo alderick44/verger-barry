@@ -125,9 +125,9 @@
                 </div>
             </section>
             <section>
-                <div class="container border my-5 d-flex p-5">
-                    <div class="text-center p-5">
-                        <h2 class="text-secondary pb-4">Une verger familial depuis 4 générations</h2>
+                <div class="container border my-5 d-flex flex-column flex-lg-row py-5 px-2 align-items-center">
+                    <div class="text-center py-5 px-3">
+                        <h2 class="text-secondary pb-4">Un verger familial depuis 4 générations</h2>
                         <p class="pb-4">Ancré dans l'histoire depuis les années 1900,
                         Le Verger Barry est une entreprise agrotouristique qui offre une grande diversité de produits et d’activités ayant pour but de faire redécouvrir les saveurs et la beauté de notre région.
                         ​<br><br>
@@ -137,15 +137,15 @@
                         </p>
                         <button class="btn btn-primary">En savoir plus</button>
                     </div>
-                    <div>
-                        <img src="media-files/accueil/presentation.png" alt="">
+                    <div class="d-flex align-items-center w-100 justify-content-center">
+                        <img src="media-files/accueil/presentation.png" alt="" class="img-fluid">
                     </div>
                 </div>
-                <div class="container border my-5 d-flex p-5">
-                    <div>
-                        <img src="media-files/accueil/presentation.png" alt="">
-                    </div>
-                    <div class="p-5 d-flex flex-column justify-content-center gap-3">
+                <div class="container border my-5 d-flex flex-column flex-lg-row py-5 px-2">
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img src="media-files/accueil/planifier-votre-visite.png" alt="" class="img-fluid">
+                    </div> 
+                    <div class="py-5 d-flex flex-column justify-content-center gap-3">
                         <h2 class="text-center text-secondary pb-4">Passez une journée inoubliable au verger!</h2>
                         <ul class="d-flex flex-column gap-3">
                             <li>Venez gouter à la nature et cueillir vos pommes en mode <span class="p-accent">auto-cueillette.</span></li>
@@ -170,17 +170,17 @@
                         <h2 class="text-secondary mt-5 mb-2">Nos classiques</h2>
                         <p>Toujours aussi bon depuis des générations</p>
                     </div>
-                    <div class="row p-5 justify-content-evenly">
-                        <div class="col-3 mt-5 pt-5">
+                    <div class="row py-5 justify-content-evenly">
+                        <div class="col-8 col-md-3 mt-5 pt-5">
                             <div class="card border-0">
                                 <img src="media-files/nos-produits/gelees.png" class="card-img-top">
                                 <div class="card-body">
-                                    <h3 class="card-title text-secondary p-5">Gelées</h3>
+                                    <h3 class="card-title text-secondary py-5">Gelées</h3>
                                     <p class="card-text">Les délicieuses gelées du verger capturent toute la subtilité des saveurs des fruits, fleurs ou herbes pour les palets gourmands.</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 ms-5 me-5">
+                        <div class="col-8 col-md-4 ms-5 me-5">
                             <div class="card border-0">
                                 <img src="media-files/nos-produits/jus-de-pommes.png" class="card-img-top px-2 pt-4">
                                 <div class="card-body">
@@ -189,7 +189,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3 mt-5 pt-5">
+                        <div class="col-8 col-md-3 mt-5 pt-5">
                             <div class="card border-0">
                                 <img src="media-files/nos-produits/beurre-de-pommes.png" class="card-img-top">
                                 <div class="card-body">
@@ -202,8 +202,8 @@
                     <h3 class="text-secondary">Nos produits du verger</h3>
                     <p>Certains produits sont disponible en ligne et d'autres seulement à notre kiosque</p>
                     <div>
-                        <div class="row p-5 justify-content-evenly">
-                            <div class="col-3 m-3">
+                        <div class="row py-5 px-2 justify-content-evenly">
+                            <div class="col-8 col-lg-3 m-3">
                                 <div class="card border-0">
                                     <img src="media-files/nos-produits/pommes-et-petits-fruits.png" class="card-img-top">
                                     <div class="card-body">
@@ -216,7 +216,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-3 m-3">
+                            <div class="col-8 col-lg-3 m-3">
                                 <div class="card border-0">
                                     <img src="media-files/nos-produits/herbes-et-fleurs.png" class="card-img-top">
                                     <div class="card-body">
@@ -231,7 +231,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-3 m-3">
+                            <div class="col-8 col--md-3 m-3">
                                 <div class="card border-0">
                                     <img src="media-files/nos-produits/conserverie.png" class="card-img-top">
                                     <div class="card-body">
@@ -260,13 +260,15 @@
                     </div>
                 </div>
                 <div class="container border text-center my-5">
-                    <div class="p-5">
+                    <div class="py-5">
                         <div class="banner-oasis justify-content-center align-items-center pt-5 d-none d-lg-flex mb-5"><!-- d-none pour alléger la version mobile (c'est un titre purement décoratif) -->
                             <img src="media-files/accueil/logo-oasis-perdue.png">
                         </div>
-                        <div class="d-flex">
-                            <img src="media-files/accueil/oasis-perdue.png" alt="..">
-                            <div class="d-flex flex-column justify-content-evenly">
+                        <div class="d-flex flex-column flex-lg-row">
+                            <div>
+                                <img src="media-files/accueil/oasis-perdue.png" alt=".." class="img-fluid py-5">
+                            </div>
+                            <div class="d-flex flex-column justify-content-evenly gap-3">
                                 <h2 class="text-secondary">L'Oasis perdue</h2>
                                 <p>Une cidrerie & distillerie artisanale hors du commun...<br>
                                     Ici, rien ne se perd, tout se transforme!<br>
@@ -277,29 +279,33 @@
                         </div>
                         <button class="btn btn-primary m-5">En savoir plus</button>
                     </div>
-                    <div class="position-relative w-100">
-                        <div class="d-flex position-absolute w-100 justify-content-center">
-                            <img src="media-files/accueil/rytuel-logo.png" alt=".." class="rounded-4 p-2 z-1 bg-light bg-opacity-75">
-                        </div>
-                        <div class="d-flex justify-content-center position-relative w-100">
-                            <img src="media-files/accueil/herbes.png" alt="">
-                            <img src="media-files/accueil/legumes.png" alt="">
-                        </div>
-                    </div>
-                    <div>
-                        <div class="d-flex gap-5 p-5">
-                            <div class="d-flex flex-column justify-content-evenly">
-                                <h2 class="text-secondary">Rytuel - Herboristerie maraîchaire</h2>
-                                <p>Situé au cœur du Verger Barry en Mauricie, Rytuel révèle les secrets des plantes pour le bien-être du corps.<br>
-
-                                Encré d'un profond respect envers l'environnement, chaque produit naît de l'harmonie entre arômes et vertus.<br>
-                                ​
-                                Infusions, légumes diversifiés, aromates culinaires, fumigations, créations artistiques florales et soins pour tatouage d'exception sont cultivés et façonnés à la main.
-                                </p>
+                    <div class="py-5">
+                        <div class="position-relative w-100 pt-5 mt-5">
+                            <div class="d-flex position-absolute w-100 justify-content-center">
+                                <img src="media-files/accueil/rytuel-logo.png" alt=".." class="rounded-4 p-2 z-1 bg-light bg-opacity-75 w-50">
                             </div>
-                            <img src="media-files/accueil/rytuel.png" alt="">
+                            <div class="d-flex justify-content-center position-relative w-100">
+                                <img src="media-files/accueil/herbes.png" alt="" class="img-fluid w-50">
+                                <img src="media-files/accueil/legumes.png" alt="" class="img-fluid w-50">
+                            </div>
                         </div>
-                        <button class="btn btn-primary m-5">En savoir plus</button>
+                        <div>
+                            <div class="d-flex py-5 flex-column flex-lg-row">
+                                <div class="d-flex flex-column justify-content-evenly gap-3">
+                                    <h2 class="text-secondary">Rytuel - Herboristerie maraîchaire</h2>
+                                    <p>Situé au cœur du Verger Barry en Mauricie, Rytuel révèle les secrets des plantes pour le bien-être du corps.<br>
+
+                                    Encré d'un profond respect envers l'environnement, chaque produit naît de l'harmonie entre arômes et vertus.<br>
+                                    ​
+                                    Infusions, légumes diversifiés, aromates culinaires, fumigations, créations artistiques florales et soins pour tatouage d'exception sont cultivés et façonnés à la main.
+                                    </p>
+                                </div>
+                                <div>
+                                    <img src="media-files/accueil/rytuel.png" alt="" class="img-fluid py-5">
+                                </div>
+                            </div>
+                            <button class="btn btn-primary m-5">En savoir plus</button>
+                        </div>
                     </div>
                 </div>
             </section>
