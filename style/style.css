@@ -159,3 +159,24 @@ footer{
         font-size: 1rem !important;
     }
 }
+@media (max-width: 768px){
+    h1{
+    font-family: "Zen Antique Soft", serif;
+    font-size: 32px;
+    }
+    h2{
+        font-family: "Zen Antique Soft", serif;
+        font-size: 27px;
+    }
+    h3{
+        font-family: "Zen Antique Soft", serif;
+        font-size: 18px;
+    }
+    p{
+        font-size: 16px;
+    }
+    .accueil__image-carrousel{
+    height: 40vh;
+    object-fit: cover;
+    }
+}
