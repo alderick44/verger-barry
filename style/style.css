@@ -134,7 +134,7 @@ footer{
 .banner-produits-section{
     background-image: url(../media-files/nos-produits/banner-produits-section.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     height: 45vh;
     width: 100%
 }
@@ -177,11 +177,17 @@ footer{
         font-family: "Zen Antique Soft", serif;
         font-size: 18px;
     }
+    .titre-decoratif{
+    font-size: 34px;
+    }
     p{
         font-size: 16px;
     }
     .accueil__image-carrousel{
     height: 40vh;
     object-fit: cover;
+    }
+    .banner-nos-produits{
+    height: 40vh;
     }
 }
