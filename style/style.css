@@ -185,9 +185,11 @@ footer{
     }
     .accueil__image-carrousel{
     height: 40vh;
-    object-fit: cover;
     }
     .banner-nos-produits{
+    height: 40vh;
+    }
+    .banner-planifier-votre-visite{
     height: 40vh;
     }
 }
