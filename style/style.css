@@ -48,6 +48,7 @@
     font-family: "Alegreya", serif;
 }
 .card-img-top {
+    min-height: 240px;
     height: 35vh;
     object-fit: cover;
 }

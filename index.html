@@ -180,9 +180,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-8 col-md-5 col-xl-4 ms-5 me-5">
+                        <div class="col-8 col-md-5 col-xl-4">
                             <div class="card border-0">
-                                <img src="media-files/nos-produits/jus-de-pommes.png" class="card-img-top px-xl-2 pt-xl-4">
+                                    <!--Responsive spécial pour cette image car la disposition est particulière sur un écran large.-->
+                                    <img src="media-files/nos-produits/jus-de-pommes.png" class="card-img-top h-100 d-none d-lg-block px-lg-4 px-xl-0 pt-xl-5 mt-xl-3 pt-xxl-0 mt-xxl-0">
+                                    <img src="media-files/nos-produits/jus-de-pommes.png" class="card-img-top d-block d-lg-none">
                                 <div class="card-body">
                                     <h3 class="card-title text-secondary p-5">Jus de pommes</h3>
                                     <p class="card-text">Fraîchement pressé, irrésistible et savoureux. Notre jus de pommes fait l'unanimité!</p>
