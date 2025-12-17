@@ -47,6 +47,12 @@
 .display-6{
     font-family: "Alegreya", serif;
 }
+.card-img-top {
+    height: 35vh;
+    object-fit: cover;
+}
+
+
 /*Titres*/
 h1{
     font-family: "Zen Antique Soft", serif;
@@ -193,4 +199,9 @@ footer{
     .banner-planifier-votre-visite{
     height: 40vh;
     }
+    .card-img-top {
+    height: 25vh;
+    object-fit: contain;
+    }
+
 }
