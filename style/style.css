@@ -9,7 +9,7 @@
     /* Couleurs secondaires */
     --couleur-rouge: #FF2C2C;
     --couleur-rouge-rgb: 255, 44, 44;
-    --couleur-rouge-shadow-rgb: rgb(255, 44, 44, 0.1);
+    --couleur-rouge-shadow-rgb: rgba(255, 44, 44, 0.064);
     --couleur-bleu: #003C68;
     --couleur-bleu-rgb: 0, 60, 104;
     /* Couleurs d'accents */
@@ -52,8 +52,6 @@
     height: 35vh;
     object-fit: cover;
 }
-
-
 /*Titres*/
 h1{
     font-family: "Zen Antique Soft", serif;
@@ -125,6 +123,9 @@ footer{
 }
 .border-shadow{
     box-shadow: 0px 0px 20px 10px var(--couleur-rouge-shadow-rgb);
+}
+ul {
+    list-style-position: inside;
 }
 /*Background images sections*/
 .banner-nos-produits{
