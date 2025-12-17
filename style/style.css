@@ -172,6 +172,9 @@ ul {
     .header__nav-title{
         font-size: 1rem !important;
     }
+    .banner-autocueillette{
+    height: 40vh;
+    }
 }
 @media (max-width: 768px){
     h1{
