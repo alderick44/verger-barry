@@ -4,8 +4,8 @@
     --couleur-brun-rgb: 179, 153, 130;
     --couleur-brun-fonce: #221B14;
     --couleur-brun-fonce-rgb: 34, 27, 20;
-    --couleur-vert: #76A883;
-    --couleur-vert-rgb: 118, 168, 131;
+    --couleur-vert: #3E844E;
+    --couleur-vert-rgb: 62, 132, 78;
     /* Couleurs secondaires */
     --couleur-rouge: #FF2C2C;
     --couleur-rouge-rgb: 255, 44, 44;
@@ -33,15 +33,17 @@
 .carousel-control-next-icon {
     background-image: url(../media-files/icones/icon-arrow-right-full.png);
     transition: 0.2s;
+    transform: scale(4);
     &:hover{
-        transform: scale(2.5);
+        transform: scale(5.5);
     }
 }
 .carousel-control-prev-icon {
     background-image: url(../media-files/icones/icon-arrow-left-full.png);
     transition: 0.2s;
+    transform: scale(4);
     &:hover{
-        transform: scale(2.5);
+        transform: scale(5.5);
     }
 }
 .display-6{
